@@ -4,8 +4,9 @@ In this gist, I will be explaining Regex and the concept of matching an email th
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regular expressions use characters, numbers, and letters to build parameters for input data. In this gist I will explain matching an email with the following code snippet: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
+The code snippet above is the template the email would follow.
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -20,9 +21,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-
-### Quantifiers
-
+Anchors are expressions that dont match any characters, but are used to denote the beginning or end of a string. The ^ that immdiately follows the / at the start of the code snippet above, denotes the beginning of the string of characters the email format will follow. The $ preceeding the / at the end of the code snippet, is reprersenting the end of that string. 
 ### Grouping Constructs
 
 ### Bracket Expressions
